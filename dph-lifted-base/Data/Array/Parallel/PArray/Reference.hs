@@ -57,7 +57,7 @@ import qualified Data.Array.Parallel.Unlifted   as U
 import qualified Data.Vector                    as V
 import qualified Prelude                        as P
 import Control.Monad
-import GHC.Exts
+import GHC.Exts hiding ( FromList(..) )
 import Prelude hiding
         ( replicate, length, concat
         , enumFromTo
